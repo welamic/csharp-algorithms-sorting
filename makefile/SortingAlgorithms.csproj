@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <AssemblyName>SortingAlgorithms</AssemblyName>
+    <RootNamespace>SortingAlgorithms</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include = "$(ProjectCodeDir)SortingAlgorithms.cs"/>
+  </ItemGroup>
+
+</Project>

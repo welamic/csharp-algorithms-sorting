@@ -1,0 +1,16 @@
+<Project>
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RepositoryDir>/workspace/csharp-algorithms-sorting/</RepositoryDir>
+    <GlobalCodeDir>$(RepositoryDir)code/</GlobalCodeDir>
+    <ProjectCodeDir>$(GlobalCodeDir)$(MSBuildProjectName)/</ProjectCodeDir>
+    <OutputDir>$(RepositoryDir)output/$(MSBuildProjectName)/</OutputDir>
+    <BaseIntermediateOutputPath>$(OutputDir)/obj/</BaseIntermediateOutputPath>
+    <BaseOutputPath>$(OutputDir)/bin/</BaseOutputPath>
+    <MSBuildProjectExtensionsPath>$(OutputDir)/ext/</MSBuildProjectExtensionsPath>
+  </PropertyGroup>
+</Project>
